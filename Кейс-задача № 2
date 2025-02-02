@@ -83,7 +83,6 @@ def display_date_in_stars(birthdate):
             stars = digit_to_stars[digit]
             for i in range(5):
                 lines[i] += stars[i] + "  "  # Добавляем пробел между цифрами
-        lines[-1] += " "  # Пробел между частями даты
 
     # Выводим результат
     for line in lines:
